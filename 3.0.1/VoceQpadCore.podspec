@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author            = { "Diego Cavalcante" => "diego.cavalcante@voceqpad.com.br" }
   s.license           = { :type => 'MIT', :file => 'LICENSE' }
   # https://username:password@github.com/username/repository.git
-  s.source            = { :git => 'https://artur.zucchi:k6fu264wgsuiwnxcq7lowxywcjv3z2u43qsdacqsipkw3kdup4pq@dev.azure.com/VoceQpad/Mineiros/_git/CoreSepec-iOS', :tag => s.version.to_s }
+  s.source            = { :git => 'https://github.com/CavalhoZucchi/vqpspec.git', :tag => s.version.to_s }
   # s.source            = { :git => 'https://dev.azure.com/VoceQpad/Mineiros/_git/CoreSepec-iOS', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
